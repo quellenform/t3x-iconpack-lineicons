@@ -1,0 +1,26 @@
+iconpack:
+  title: "Lineicons"
+  key: "line"
+  version: "2.0"
+  url: "https://lineicons.com/"
+  logo: "EXT:iconpack_lineicons/Resources/Public/Vendor/lineicons-free-basic-3.0/Logo.svg"
+
+  renderTypes:
+    webfont:
+      css: "EXT:iconpack_lineicons/Resources/Public/Vendor/lineicons-free-basic-3.0/css/webfont.css"
+      prefix: "lni-"
+      attributes:
+        class: "lni"
+        aria-hidden: "true"
+
+    svg:
+      source: "EXT:iconpack_lineicons/Resources/Public/Vendor/lineicons-free-basic-3.0/svgs/"
+      attributes:
+        fill: "currentColor"
+
+    svgInline:
+      source: "EXT:iconpack_lineicons/Resources/Public/Vendor/lineicons-free-basic-3.0/svgs/"
+      prefix: "lni lni-"
+
+  categories: "EXT:iconpack_lineicons/Resources/Public/Vendor/lineicons-free-basic-3.0/metadata/categories.yml"
+  icons: "EXT:iconpack_lineicons/Resources/Public/Vendor/lineicons-free-basic-3.0/metadata/icons.yml"

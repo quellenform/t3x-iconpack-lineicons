@@ -19,16 +19,17 @@ Author: lineicons.com
 /*------------------------
 	base class definition
 -------------------------*/
-.lni {
-  display: inline-block;
-  font: normal normal normal 1em/1 'LineIcons';
-  color: inherit;
-  flex-shrink: 0;
+[class^="lni-"],
+[class*=" lni-"] {
+  font-family: 'LineIcons' !important;
   speak: none;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
   text-transform: none;
   line-height: 1;
-  vertical-align: -.125em;
-  /* Better Font Rendering */
+
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
